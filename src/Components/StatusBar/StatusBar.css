@@ -4,6 +4,11 @@
     background-color: white;
     border: 1px solid #dbdddb;
     margin-top: 25px;
+    display: flex;
+    overflow-x: scroll;
+}
+.statusbar__container::-webkit-scrollbar {
+    display: none;
 }
 .statusbar__status{
     min-width: 55px;
