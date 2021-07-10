@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Grid from '@material-ui/core/Grid';
 import StatusBar from '../StatusBar/StatusBar';
 import MainPage from '../MainPage/MainPage';
+import InforSection from '../InforSection/InforSection';
+import Suggestions from '../Suggestions/Suggestions';
 class MainContent extends Component {
     constructor(props) {
         super(props);
@@ -18,7 +20,10 @@ class MainContent extends Component {
                             <MainPage />
                         </div>
                     </Grid>
-                    <Grid item xs={2}>dasasd</Grid>
+                    <Grid item xs={2}>
+                        <InforSection />
+                        <Suggestions />
+                    </Grid>
                     <Grid item xs={2}>dsada</Grid>
                 </Grid>
             </div>
